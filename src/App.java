@@ -14,6 +14,5 @@ public class App {
         Book warAndPeace = new Book("War and Peace", "Tolstoi", 1863);
         warAndPeace.setPublicationYear(1869);
         System.out.println(warAndPeace.getTitle() + " " + warAndPeace.getAuthor() + " " + tolstoi.getFirstName() + " " + warAndPeace.getPublicationYear());
-
     }
 }
