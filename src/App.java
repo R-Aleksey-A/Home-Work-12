@@ -10,9 +10,9 @@ public class App {
 
 
         Book fairyTales = new Book("Fairy tales", pushkin, 1830);
-        System.out.println(fairyTales.getTitle() + " " + fairyTales.getAuthor() + " " + pushkin.getFirstName() + " " + fairyTales.getPublicationYear());
+        System.out.println(fairyTales.getTitle() + " " + fairyTales.getAuthor().getLastName() + " " + pushkin.getFirstName() + " " + fairyTales.getPublicationYear());
         Book warAndPeace = new Book("War and Peace", tolstoi, 1863);
         warAndPeace.setPublicationYear(1869);
-        System.out.println(warAndPeace.getTitle() + " " + warAndPeace.getAuthor() + " " + tolstoi.getFirstName() + " " + warAndPeace.getPublicationYear());
+        System.out.println(warAndPeace.getTitle() + " " + warAndPeace.getAuthor().getLastName() + " " + tolstoi.getFirstName() + " " + warAndPeace.getPublicationYear());
     }
 }
